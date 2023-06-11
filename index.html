@@ -105,80 +105,50 @@
   
     <!-- Modal content -->
     <div class="modal-content">
-      <div class="modal-header">
+      <div class= "modal-header">
         <span class="close">&times;</span>
-        <h2>Modal Header</h2>
+        <h2 class="modal-title">Cart</h2>
       </div>
       <div class="modal-body">
-        <p>Some text in the Modal Body</p>
-        <p>Some other text...</p>
-      </div>
-      <div class="modal-footer">
-        <h3>Modal Footer</h3>
+        <div class="products-cart">
+          <div class="img-products-cart">
+            <img src="assets/img/ipads_1500x.webp" width="100%" height="100%" alt="">
+          </div>
+          <div class="title-products-cart">
+            <p class="bold">Tablets</p><p class="title-detail-products-cart">15$ -- 5quantity</p>
+          </div>
+          <span class="close" id="close-products">&times;</span>
+        </div>
+        <hr>
+        <div class="cart-plus">
+          <p class="bold" style="color: #293A53;">plus:</p><p class="eq">89$</p>
+        </div>
+        <hr>
+        <div class="continue-cart">
+          <button class="btn btn-primary" id="continue-cart">continue shoping</button>
+        </div>
       </div>
     </div>
   
   </div>
   </section>
-<section>
-  <div class="container-fluid" id="site-banner">
-    <div class="background-color">
-      <p class="banner-text">Get 10% off repairs at idooka
-        <br> When booked online</p>
-      <button type="button" class="btn btn-primary" id="banner-btn">Book Your Repair Today</button>
-    </div>
-  </div>
-</section>
-<br>
-<section>
-  <!-- <div class="grid-container">
-    <div class="grid-item" id="item-1">
-      <div class="background-opacity">
-        <div class="img-sizing">
-          <img src="assets/img/9a2ce3cc-6dcd-412f-b092-719de37937ef.png" width="100%" height="100%" alt=""><p class="text-size">Repair</p>
-        </div> 
-        <div class="discrip-text">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-        </div>
-        <div class="btn-item">
-          <button type="button" class="btn btn-danger" id="item-btn-1">Book Your Repair Today</button>
-        </div>
+<main>
+  <section>
+    <div class="container-fluid" id="site-banner">
+      <div class="background-color">
+        <p class="banner-text">Get 10% off repairs at idooka
+          <br> When booked online</p>
+        <button type="button" class="btn btn-primary" id="banner-btn">Book Your Repair Today</button>
       </div>
     </div>
-    <div class="grid-item" id="item-2">
-      <div class="background-opacity" id="background-color-2">
-        <div class="img-sizing">
-          <img src="assets/img/9a2ce3cc-6dcd-412f-b092-719de37937ef.png" width="100%" height="100%" alt=""><p class="text-size">Web</p>
-        </div> 
-        <div class="discrip-text">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-        </div>
-        <div class="btn-item">
-          <button type="button" class="btn btn-danger" id="item-btn-1">Book Your Repair Today</button>
-        </div>
-      </div>
-    </div>
-    <div class="grid-item" id="item-3">
-      <div class="background-opacity" id="background-color-3">
-        <div class="img-sizing">
-          <img src="assets/img/9a2ce3cc-6dcd-412f-b092-719de37937ef.png" width="100%" height="100%" alt=""><p class="text-size">Phone</p>
-        </div> 
-        <div class="discrip-text">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-        </div>
-        <div class="btn-item">
-          <button type="button" class="btn btn-danger" id="item-btn-1">Book Your Repair Today</button>
-        </div>
-      </div>
-    </div>   
-  </div> -->
-  <div class="row" id="col">
-    <div class="col p-3 text-black" id="item-1">
-      <div class="img-col">
-        <img src="assets/img/repairs_1500x.webp" width="100%" height="100%" alt="">
-        <div class="background-opacity" id="background-color-1">
+  </section>
+  <br>
+  <section>
+    <!-- <div class="grid-container">
+      <div class="grid-item" id="item-1">
+        <div class="background-opacity">
           <div class="img-sizing">
-            <img src="assets/img/9a2ce3cc-6dcd-412f-b092-719de37937ef.png" width="100%" height="100%" alt=""><p class="text-size">Repairs</p>
+            <img src="assets/img/9a2ce3cc-6dcd-412f-b092-719de37937ef.png" width="100%" height="100%" alt=""><p class="text-size">Repair</p>
           </div> 
           <div class="discrip-text">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
@@ -188,13 +158,10 @@
           </div>
         </div>
       </div>
-    </div>
-    <div class="col p-3 text-black" id="item-1">
-      <div class="img-col" id="img-2">
-        <img src="assets/img/Mobile_Banner_1_1.webp" width="100%" height="100%" alt="">
+      <div class="grid-item" id="item-2">
         <div class="background-opacity" id="background-color-2">
           <div class="img-sizing">
-            <img src="assets/img/9a2ce3cc-6dcd-412f-b092-719de37937ef.png" width="100%" height="100%" alt=""><p class="text-size">Phone</p>
+            <img src="assets/img/9a2ce3cc-6dcd-412f-b092-719de37937ef.png" width="100%" height="100%" alt=""><p class="text-size">Web</p>
           </div> 
           <div class="discrip-text">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
@@ -204,10 +171,7 @@
           </div>
         </div>
       </div>
-    </div>
-    <div class="col p-3 text-black" id="item-1">
-      <div class="img-col" id="img-3">
-        <img src="assets/img/tech_1500x.webp" width="100%" height="100%" alt="">
+      <div class="grid-item" id="item-3">
         <div class="background-opacity" id="background-color-3">
           <div class="img-sizing">
             <img src="assets/img/9a2ce3cc-6dcd-412f-b092-719de37937ef.png" width="100%" height="100%" alt=""><p class="text-size">Phone</p>
@@ -219,198 +183,248 @@
             <button type="button" class="btn btn-danger" id="item-btn-1">Book Your Repair Today</button>
           </div>
         </div>
-      </div>
-    </div>
-  </div>
-</section>
-<section>
-  <div class="container-fluid" id="poster">
-    <div class="title-poster">
-      <p><span class="bold">Trade</span> With Phone</p>
-    </div>
-    <div class="discrip-poster">
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-    </div>
-    <div class="btn-poster">
-      <button class="btn btn-danger" id="btn-poster">About Twig</button>
-    </div>
-    <div class="img-poster">
-      <img src="assets/img/yellow-background_1500x.png" width="100%" height="100%" alt="">
-    </div>
-  </div>
-</section>
-<section>
-  <div class="shop-display">
-    <p class="shop-title"><span class="bold">Shop</span> tech</p>
-    <div class="container mt-5" id="col-id">
-    <div class="row">
-      <div class="col-sm-3" id="shop-item-1">
-        <div class="shop-img">
-          <img src="assets/img/ipads_1500x.webp" width="100%" height="100%" alt="">
-        </div>
-        <div class="cate-title-shop">
-          <p class="cate2">
-            Ipads & Tablets
-          </p>
-          <span class="next"><i class="fa-solid fa-chevron-right"></i></span>
+      </div>   
+    </div> -->
+    <div class="row" id="col">
+      <div class="col p-3 text-black" id="item-1">
+        <div class="img-col">
+          <img src="assets/img/repairs_1500x.webp" width="100%" height="100%" alt="">
+          <div class="background-opacity" id="background-color-1">
+            <div class="img-sizing">
+              <img src="assets/img/9a2ce3cc-6dcd-412f-b092-719de37937ef.png" width="100%" height="100%" alt=""><p class="text-size">Repairs</p>
+            </div> 
+            <div class="discrip-text">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="btn-item">
+              <button type="button" class="btn btn-danger" id="item-btn-1">Book Your Repair Today</button>
+            </div>
+          </div>
         </div>
       </div>
-      <div class="col-sm-3" id="shop-item-1">
-        <div class="shop-img">
-          <img src="assets/img/hpyacxcy.bmp" width="100%" height="100%" alt="">
-        </div>
-        <div class="cate-title-shop">
-          <p class="cate2">
-            Mobile phones
-          </p>
-          <span class="next"><i class="fa-solid fa-chevron-right"></i></span>
-        </div>
-      </div>
-      <div class="col-sm-3" id="shop-item-1">
-        <div class="shop-img">
-          <img src="assets/img/bu9sx7ns.bmp" width="100%" height="100%" alt="">
-        </div>
-        <div class="cate-title-shop">
-          <p class="cate2">
-            Smart Watch
-          </p>
-          <span class="next"><i class="fa-solid fa-chevron-right"></i></span>
+      <div class="col p-3 text-black" id="item-1">
+        <div class="img-col" id="img-2">
+          <img src="assets/img/Mobile_Banner_1_1.webp" width="100%" height="100%" alt="">
+          <div class="background-opacity" id="background-color-2">
+            <div class="img-sizing">
+              <img src="assets/img/9a2ce3cc-6dcd-412f-b092-719de37937ef.png" width="100%" height="100%" alt=""><p class="text-size">Web</p>
+            </div> 
+            <div class="discrip-text">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="btn-item">
+              <a href="http://127.0.0.1:5500/techweb.html"><button type="button" class="btn btn-danger" id="item-btn-1">Book Your Repair Today</button></a>
+            </div>
+          </div>
         </div>
       </div>
-      <div class="item-shop-4">
+      <div class="col p-3 text-black" id="item-1">
+        <div class="img-col" id="img-3">
+          <img src="assets/img/tech_1500x.webp" width="100%" height="100%" alt="">
+          <div class="background-opacity" id="background-color-3">
+            <div class="img-sizing">
+              <img src="assets/img/9a2ce3cc-6dcd-412f-b092-719de37937ef.png" width="100%" height="100%" alt=""><p class="text-size">Phone</p>
+            </div> 
+            <div class="discrip-text">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="btn-item">
+              <button type="button" class="btn btn-danger" id="item-btn-1">Book Your Repair Today</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="container-fluid" id="poster">
+      <div class="title-poster">
+        <p><span class="bold">Trade</span> With Phone</p>
+      </div>
+      <div class="discrip-poster">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+      </div>
+      <div class="btn-poster">
+        <button class="btn btn-danger" id="btn-poster">About Twig</button>
+      </div>
+      <div class="img-poster">
+        <img src="assets/img/yellow-background_1500x.png" width="100%" height="100%" alt="">
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="shop-display">
+      <p class="shop-title"><span class="bold">Shop</span> tech</p>
+      <div class="container mt-5" id="col-id">
+      <div class="row">
         <div class="col-sm-3" id="shop-item-1">
           <div class="shop-img">
-            <img src="assets/img/wzf7413k.bmp" width="100%" height="100%" alt="">
+            <img src="assets/img/ipads_1500x.webp" width="100%" height="100%" alt="">
           </div>
           <div class="cate-title-shop">
             <p class="cate2">
-              Computers & Laptops
+              Ipads & Tablets
             </p>
             <span class="next"><i class="fa-solid fa-chevron-right"></i></span>
           </div>
         </div>
+        <div class="col-sm-3" id="shop-item-1">
+          <div class="shop-img">
+            <img src="assets/img/hpyacxcy.bmp" width="100%" height="100%" alt="">
+          </div>
+          <div class="cate-title-shop">
+            <p class="cate2">
+              Mobile phones
+            </p>
+            <span class="next"><i class="fa-solid fa-chevron-right"></i></span>
+          </div>
+        </div>
+        <div class="col-sm-3" id="shop-item-1">
+          <div class="shop-img">
+            <img src="assets/img/bu9sx7ns.bmp" width="100%" height="100%" alt="">
+          </div>
+          <div class="cate-title-shop">
+            <p class="cate2">
+              Smart Watch
+            </p>
+            <span class="next"><i class="fa-solid fa-chevron-right"></i></span>
+          </div>
+        </div>
+        <div class="item-shop-4">
+          <div class="col-sm-3" id="shop-item-1">
+            <div class="shop-img">
+              <img src="assets/img/wzf7413k.bmp" width="100%" height="100%" alt="">
+            </div>
+            <div class="cate-title-shop">
+              <p class="cate2">
+                Computers & Laptops
+              </p>
+              <span class="next"><i class="fa-solid fa-chevron-right"></i></span>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-  </div>
-</section>
-<section>
-  <div class="shop-display-2">
-    <p class="shop-title" id="shop-title-2"><span class="bold">Web</span> Tech</p>
-    <div class="container mt-5" id="col-id">
-    <div class="row">
-      <div class="col-sm-3" id="shop-item-1">
-        <div class="shop-img">
-          <img src="assets/img/ipads_1500x.webp" width="100%" height="100%" alt="">
-        </div>
-        <div class="cate-title-shop" id="red-background-color">
-          <p class="cate2">
-            Ui & Ux
-          </p>
-          <span class="next"><i class="fa-solid fa-chevron-right"></i></span>
-        </div>
-      </div>
-      <div class="col-sm-3" id="shop-item-1">
-        <div class="shop-img">
-          <img src="assets/img/ipads_1500x.webp" width="100%" height="100%" alt="">
-        </div>
-        <div class="cate-title-shop" id="red-background-color">
-          <p class="cate2">
-            fornt end developer
-          </p>
-          <span class="next"><i class="fa-solid fa-chevron-right"></i></span>
-        </div>
-      </div>
-      <div class="col-sm-3" id="shop-item-1">
-        <div class="shop-img">
-          <img src="assets/img/ipads_1500x.webp" width="100%" height="100%" alt="">
-        </div>
-        <div class="cate-title-shop" id="red-background-color">
-          <p class="cate2">
-            backend developer
-          </p>
-          <span class="next"><i class="fa-solid fa-chevron-right"></i></span>
-        </div>
-      </div>
-      <div class="item-shop-4">
+    </div>
+  </section>
+  <section>
+    <div class="shop-display-2">
+      <p class="shop-title" id="shop-title-2"><span class="bold">Web</span> Tech</p>
+      <div class="container mt-5" id="col-id">
+      <div class="row">
         <div class="col-sm-3" id="shop-item-1">
           <div class="shop-img">
             <img src="assets/img/ipads_1500x.webp" width="100%" height="100%" alt="">
           </div>
           <div class="cate-title-shop" id="red-background-color">
             <p class="cate2">
-              seo
+              Ui & Ux
             </p>
             <span class="next"><i class="fa-solid fa-chevron-right"></i></span>
           </div>
         </div>
+        <div class="col-sm-3" id="shop-item-1">
+          <div class="shop-img">
+            <img src="assets/img/ipads_1500x.webp" width="100%" height="100%" alt="">
+          </div>
+          <div class="cate-title-shop" id="red-background-color">
+            <p class="cate2">
+              fornt end developer
+            </p>
+            <span class="next"><i class="fa-solid fa-chevron-right"></i></span>
+          </div>
+        </div>
+        <div class="col-sm-3" id="shop-item-1">
+          <div class="shop-img">
+            <img src="assets/img/ipads_1500x.webp" width="100%" height="100%" alt="">
+          </div>
+          <div class="cate-title-shop" id="red-background-color">
+            <p class="cate2">
+              backend developer
+            </p>
+            <span class="next"><i class="fa-solid fa-chevron-right"></i></span>
+          </div>
+        </div>
+        <div class="item-shop-4">
+          <div class="col-sm-3" id="shop-item-1">
+            <div class="shop-img">
+              <img src="assets/img/ipads_1500x.webp" width="100%" height="100%" alt="">
+            </div>
+            <div class="cate-title-shop" id="red-background-color">
+              <p class="cate2">
+                seo
+              </p>
+              <span class="next"><i class="fa-solid fa-chevron-right"></i></span>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-  </div>
-</section>
-<section>
-  <div class="container-fluid" id="why-tech">
-      <div class="img-why">
-        <img src="assets/img/3ynnven3.bmp" width="100%" height="100%" alt="">
-        <div class="background-opacity-why">
-          <div class="title-why">
-            <p><span class="bold">Why</span> TechCell?</p>
-            <br>
-            <div class="container mt-5" id="col-id-2">
-              <div class="row">
-                <div class="col-sm-5">
-                  <div class="item-img-why">
-                    <i class="fa-sharp fa-solid fa-truck-fast"></i>
+    </div>
+  </section>
+  <section>
+    <div class="container-fluid" id="why-tech">
+        <div class="img-why">
+          <img src="assets/img/3ynnven3.bmp" width="100%" height="100%" alt="">
+          <div class="background-opacity-why">
+            <div class="title-why">
+              <p><span class="bold">Why</span> TechCell?</p>
+              <br>
+              <div class="container mt-5" id="col-id-2">
+                <div class="row">
+                  <div class="col-sm-5">
+                    <div class="item-img-why">
+                      <i class="fa-sharp fa-solid fa-truck-fast"></i>
+                    </div>
+                    <div class="title-item-why">
+                      <p>fast shipping</p>
+                    </div>
+                    <div class="content-item-why">
+                      <p>Speedy, secure shipping ensures your items arrive on time and in the condition you expect.</p>
+                    </div>
+                    <div class="btn-poster">
+                      <button class="btn btn-danger" id="btn-why">Find Out More</button>
+                    </div>
                   </div>
-                  <div class="title-item-why">
-                    <p>fast shipping</p>
+                  <div class="col-sm-5">
+                    <div class="item-img-why">
+                      <i class="fa-solid fa-award" style="color:#EC806E!important;"></i>
+                    </div>
+                    <div class="title-item-why">
+                      <p>Quality, refurbished items</p>
+                    </div>
+                    <div class="content-item-why">
+                      <p>Choose from a selection of repaired and refurbished phones, tablets, and household items.</p>
+                    </div>
+                    <div class="btn-poster">
+                      <button class="btn btn-danger" id="btn-why">Find Out More</button>
+                    </div>
                   </div>
-                  <div class="content-item-why">
-                    <p>Speedy, secure shipping ensures your items arrive on time and in the condition you expect.</p>
-                  </div>
-                  <div class="btn-poster">
-                    <button class="btn btn-danger" id="btn-why">Find Out More</button>
-                  </div>
-                </div>
-                <div class="col-sm-5">
-                  <div class="item-img-why">
-                    <i class="fa-solid fa-award" style="color:#EC806E!important;"></i>
-                  </div>
-                  <div class="title-item-why">
-                    <p>Quality, refurbished items</p>
-                  </div>
-                  <div class="content-item-why">
-                    <p>Choose from a selection of repaired and refurbished phones, tablets, and household items.</p>
-                  </div>
-                  <div class="btn-poster">
-                    <button class="btn btn-danger" id="btn-why">Find Out More</button>
-                  </div>
-                </div>
-                <div class="col-sm-5" id="last-item-why">
-                  <div class="item-img-why">
-                    <i class="fa-solid fa-right-left" style="color:#00AFB8!important;"></i>
-                  </div>
-                  <div class="title-item-why">
-                    <p>30 day returns</p>
-                  </div>
-                  <div class="content-item-why">
-                    <p>We want you to be sure that you’re happy with your order, which is why you have 30 days to return it to us.</p>
-                  </div>
-                  <div class="btn-poster">
-                    <button class="btn btn-danger" id="btn-why">Find Out More</button>
+                  <div class="col-sm-5" id="last-item-why">
+                    <div class="item-img-why">
+                      <i class="fa-solid fa-right-left" style="color:#00AFB8!important;"></i>
+                    </div>
+                    <div class="title-item-why">
+                      <p>30 day returns</p>
+                    </div>
+                    <div class="content-item-why">
+                      <p>We want you to be sure that you’re happy with your order, which is why you have 30 days to return it to us.</p>
+                    </div>
+                    <div class="btn-poster">
+                      <button class="btn btn-danger" id="btn-why">Find Out More</button>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
+    </div>
+  </section>
+  <div class="container-fluid" id="white-poster">
+    <p class="text-poster"><span class="bold">With over 15 years experience, idooka is the ‘go to’ site</span> for keenly priced tech and <br> lifestyle</p>
   </div>
-</section>
-<div class="container-fluid" id="white-poster">
-  <p class="text-poster"><span class="bold">With over 15 years experience, idooka is the ‘go to’ site</span> for keenly priced tech and <br> lifestyle</p>
-</div>
+</main>
 <footer>
   <div class="pg-footer">
     <footer class="footer">

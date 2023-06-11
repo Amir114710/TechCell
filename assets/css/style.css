@@ -1147,3 +1147,40 @@ transform: scale(1.2);
 }
 
 /* endfooter */
+
+/* techweb page */
+.techweb{
+  position: relative;
+  top: 10em;
+}
+/* endtechweb page */
+/* backend_page */
+#whats-backend{
+  height: 25em;
+  position: relative;
+  top: 0em;
+}
+
+.backend-content{
+  text-align: center;
+  font-size: 22px;
+  width: 35em;
+  position: relative;
+  top: 4em;
+  left: 25%;
+}
+
+#mark{
+  font-size: 50px;
+}
+
+.cv{
+  margin-top: 5em;
+}
+
+.cv-title{
+  color: #39455B;
+  position: relative;
+  left: 2em;
+}
+/* endbackend_page */
